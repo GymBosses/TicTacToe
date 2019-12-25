@@ -1,6 +1,6 @@
-#include "MyText.h"
+#include "TemplateText.h"
 
-MyText::MyText(const std::string& str, int size)
+TemplateText::TemplateText(const std::string& str, int size)
 {
 	font.loadFromFile("font/Alata-Regular.ttf");
 	text.setFont(font);
@@ -9,17 +9,17 @@ MyText::MyText(const std::string& str, int size)
 	text.setCharacterSize(size);
 }
 
-sf::Text MyText::get_text()
+sf::Text TemplateText::get_text()
 {
 	return text;
 }
 
-void MyText::change_text(const std::string& str)
+void TemplateText::change_text(const std::string& str)
 {
 	text.setString(str);
 }
 
-void MyText::set_pos(int x, int y)
+void TemplateText::set_pos(int x, int y)
 {
 	text.setPosition(x, y);
 }

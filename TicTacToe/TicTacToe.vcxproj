@@ -156,8 +156,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="MySprite.cpp" />
-    <ClCompile Include="MyText.cpp" />
+    <ClCompile Include="TemplateSprite.cpp" />
+    <ClCompile Include="TemplateText.cpp" />
     <ClCompile Include="Players.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -166,8 +166,8 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="MainGame.h" />
     <ClInclude Include="Menu.h" />
-    <ClInclude Include="MySprite.h" />
-    <ClInclude Include="MyText.h" />
+    <ClInclude Include="TemplateSprite.h" />
+    <ClInclude Include="TemplateText.h" />
     <ClInclude Include="Players.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

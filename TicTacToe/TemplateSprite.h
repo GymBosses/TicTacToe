@@ -2,16 +2,16 @@
 #define SPRITE
 #include <SFML/Graphics.hpp>
 
-class MySprite
+class TemplateSprite
 {
 	int x, y; //position
 public:
-	MySprite() {};
+	TemplateSprite() {};
 	sf::Texture texture;
 	sf::Sprite sprite; //sfml sprite
 	sf::Sprite get_sprite();
 	//set sptite from file path and set position, if this need
-	MySprite(const std::string& path, int scrX = 300, int px = 0, int py = 0);
+	TemplateSprite(const std::string& path, int scrX = 300, int px = 0, int py = 0);
 	//set position srpite
 	void set_pos(int x, int y);
 	//full screen display

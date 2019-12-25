@@ -3,12 +3,12 @@
 #include <SFML/Graphics.hpp>
 
 
-class MyText
+class TemplateText
 {
 	sf::Font font;
 	sf::Text text;
 public:
-	MyText(const std::string& str, int size);
+	TemplateText(const std::string& str, int size);
 	sf::Text get_text();
 	void change_text(const std::string& std);
 	void set_pos(int x, int y);
