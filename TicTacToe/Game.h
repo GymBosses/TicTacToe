@@ -10,6 +10,7 @@ class Game : public MainGame
 	int turn;
 public:
 	Game(int tr);
+	// check MainGame for information about this methods
 	void set_move(int x);
 	void who_turn();
 	void set_xo();

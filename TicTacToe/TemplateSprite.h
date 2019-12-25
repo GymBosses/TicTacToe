@@ -18,6 +18,7 @@ public:
 	void full_screen(int scrx, int scry);
 	//set color sprite
 	void set_color(int r, int g, int b, int t);
+	// set image from path and set position on window
 	void create_sprite(const std::string& path, int srcX = 300, int px = 0, int py = 0);
 };
 
